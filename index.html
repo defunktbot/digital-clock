@@ -15,8 +15,11 @@ Coding 1
 		<p id="time"></p>
 		
 		<script>
-			var d = new Date();
-			document.getElementById("time").innerHTML = d;
+			var timer = setInterval(myTimer, 1000);
+			
+			function myTimer() {
+				var d = new Date();
+				document.getElementById("time").innerHTML = d.toLocaleTimeString();
 			}
 		</script>
 	</body>
