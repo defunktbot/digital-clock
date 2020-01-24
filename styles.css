@@ -12,22 +12,34 @@ Coding 1
 }
 
 #clock-display {
-	width: 700px;
+	width: 600px;
 	height: 300px;
-	background-color: white;
-	margin-top: 200px
+	background-color: gray;
+
 }
 
-.margin {
+#time {
+	font-size: 100px;
+	color: #39ff14; /*Neon Green*/
+}
+
+#button {
+	background-image:url('button.png'); /*Power button*/
+	width: 225px;
+	height: 225px;
+	cursor: pointer;
+}
+
+.center {
 	margin: auto;
+	text-align: center;
 }
 
 .relative {
 	position: relative;
 }
 
-#time {
-	font-size: 100px;
-	font-color: #39ff14; /*Neon Green*/
-	text-align: center;
+.absolute {
+	position: fixed;
 }
+
