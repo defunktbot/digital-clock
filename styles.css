@@ -4,3 +4,27 @@ Period 3
 Coding 1
 */
 
+#clock-outer {
+	width: 800px;
+	height: 400px;
+	background-color: black;
+	border-radius: 25px;
+}
+
+#clock-display {
+	width: 700px;
+	height: 300px;
+	background-color: white;
+	margin-top: 200px
+}
+
+.margin {
+	margin: auto;
+}
+
+
+#time {
+	font-size: 100px;
+	font-color: #39ff14; /*Neon Green*/
+	text-align: center;
+}

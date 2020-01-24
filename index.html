@@ -9,19 +9,16 @@ Coding 1
 	<head>
 		<meta charset = "UTF-8"/>
 		<title>Digital Clock Project</title>
+		<link href="styles.css" type="text/css" rel="stylesheet">
 	</head>
 
 	<body>
-		<p id="time"></p>
-		
-		<script>
-			var timer = setInterval(myTimer, 1000);
-			
-			function myTimer() {
-				var d = new Date();
-				document.getElementById("time").innerHTML = d.toLocaleTimeString();
-			}
-		</script>
+		<div id="clock-outer" class="margin">
+			<div id="clock-display">
+				<p id="time"></p>
+				<script src="time.js"></script>
+			</div>
+		</div>
 	</body>
 
 </html>
