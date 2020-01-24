@@ -22,6 +22,9 @@ Coding 1
 	margin: auto;
 }
 
+.relative {
+	position: relative;
+}
 
 #time {
 	font-size: 100px;
